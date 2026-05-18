@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Генералка — Клининговая компания</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <!-- Логотип: замените src на ваш файл -->
+        <img src="img/logo.webp" alt="Генералка" width="160" height="50" class="logo-img" />
+      </a>
+     
+      <div class="nav-right">
+        <a href="tel:+71234567890" class="nav-phone">+7 123 456-78-90</a>
+       <div class="nav-socials">
+          <i class="fa-brands fa-vk" style="color: rgb(189, 200, 219);"></i>
+          <i class="fa-brands fa-whatsapp" style="color: rgb(2, 204, 16);"></i>
+          <i class="fa-brands fa-telegram" style="color: rgb(2, 73, 204);"></i>
+        </div>
+      </div>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#services">Услуги</a>
+      <a href="#why-us">О нас</a>
+      <a href="#prices">Цены</a>
+      <a href="#team">Команда</a>
+      <a href="#faq">FAQ</a>
+      <a href="#news">Новости</a>
+      <a href="#contact">Контакты</a>
+      <a href="tel:+71234567890" class="nav-phone">+7 123 456-78-90</a>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <!-- Замените src на ваше фоновое фото -->
+     <div class="container hero-content">
+      <div class="hero-text">
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary hero-section-btn btn-lg">Заказать звонок</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ===== УСЛУГИ ===== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <h2 class="section-title">Услуги клинига, <span>которые мы оказываем</span></h2>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <!-- Замените src на фото услуги -->
+            <img src="img/blog.webp" alt="Поддерживающая уборка" width="360" height="220" />
+          </div>
+          <div class="service-body">
+            <h3>Поддерживающая уборка
+</h3>
+            <p>Отличное решение для быстрого поддержания чистоты в бытовых и коммерческих помещениях. </p>
+            <p class="service-price">от 1000 руб.</p>
+            <a href="#contact" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="img/blog2.webp" alt="Генеральная уборка" width="360" height="220" />
+          </div>
+          <div class="service-body">
+            <h3>Генеральная уборка
+</h3>
+            <p>
+
+Генеральная уборка
+Обширный комплекс работ, направленный на максимальное удаление загрязнений от потолка до пола в бытовых и коммерческих помещениях.</p>
+            <p class="service-price">от 10000 руб.</p>
+            <a href="#contact" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="img/blog3.webp" alt="Уборка после ремонта" width="360" height="220" />
+          </div>
+          <div class="service-body">
+            <h3>Уборка после ремонта</h3>
+            <p>Наши профессиональные мастера полностью подготовят для Вас помещение, даже после самого капитального ремонта.</p>
+            <p class="service-price">от 10000 руб.</p>
+            <a href="#contact" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="img/blog4.webp" alt="Мытьё остекления" width="360" height="220" />
+          </div>
+          <div class="service-body">
+            <h3>Мытье остекления
+</h3>
+            <p>Приведем в порядок Ваши окна - как от сезонных загрязнений, так и от трудновыводимых следов ремонта.</p>
+            <p class="service-price">от 3000 руб.</p>
+            <a href="#contact" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="img/blog5.webp" alt="Химчистка мягкой мебели" width="360" height="220" />
+          </div>
+          <div class="service-body">
+            <h3>Химчистка мягкой мебели</h3>
+            <p>Чистка и удаление различных загрязнений с любых типов мягкой мебели.</p>
+            <p class="service-price">от 3000 руб.</p>
+            <a href="#contact" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="img/blog6.webp" alt="Химчистка ковровых покрытий" width="360" height="220" />
+          </div>
+          <div class="service-body">
+            <h3>Химчистка ковровых покрытий</h3>
+            <p>Общая чистка и удаление следов эксплуатации с текстильных напольных покрытий.</p>
+            <p class="service-price">от 3000 руб.</p>
+            <a href="#contact" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== О КОМПАНИИ ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section-title">На страже <span>чистоты</span> и порядка</h2>
+      <h3 class="section-sub">Клининг любой сложности в городе Екатеринбург</h3>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Рады приветствовать всех, кто уже стал и кому только предстоит стать пользователем клининговых услуг. Для начала давайте разберемся, что такое клининг и зачем это вообще нужно?</p>
+          <p>Клининг- сфера услуг, занимающаяся наведением чистоты и порядка в жилых, коммерческих, офисных, производственных помещениях. Так же клининг занимается уборкой мест общественного пользования, придомовых территорий, вывозом различных отходов (бытовых, строительных и даже вывозом снега).</p>
+          <p>Как вы уже поняли, клининг -  Везде! Все вышеперечисленные места содержатся в чистоте, благодаря усилиям профессиональных сотрудников, вооруженных современным оборудованием и первоклассной химией. И все это замечательно, НО - когда большинство приходит домой - чистота и порядок в квартирах целиком ложится на хрупкие женские плечи. И тут мы спешим на помощь! Сама цель существования нашей клининговой компании - делать жизнь приятнее! Пробуйте наши услуги, наши комплексные решения вопросов чистоты и Вы забудете, что такое уборка!</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ПОЧЕМУ МЫ ===== -->
+  <section class="why-us section" id="why-us">
+    <div class="container">
+      <h2 class="section-title">Почему выбирают <span>именно нас</span></h2>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon"><i class="fa-regular fa-clipboard"></i></div>
+          <p>Контроль качества на каждом этапе
+Контролируя соблюдение технологии уборки и качество исполнения каждого процесса, мы гарантируем самый лучший результат.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fa-solid fa-arrows-down-to-people"></i></div>
+          <p>Богатый опыт работы в сфере клинига
+Наши сотрудники непрерывно совершенствуют свои навыки, что позволяет смело браться за самые сложные задачи.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <p>Все сотрудники граждане РФ
+Все наши сотрудники исключительно граждане Российской Федерации.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fa-solid fa-gears"></i></div>
+          <p>Профессиональное оборудование 
+В процессе уборки используется оборудование от лучшего мирового производителя - KARCHER.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fa-solid fa-user-tie"></i></div>
+          <p>Оплата после выполнения работ
+После выполнения уборки, вы принимаете нашу работу. Если есть какие-то замечания, мы все исправляем и только потом происходит оплата заказа.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fa-solid fa-certificate"></i></div>
+          <p>Сертифицированная бытовая химия 
+Даже если вы аллергик или болеете астмой, после нашей работы у вас не будет проблем. Мы за безопасные для здоровья средства.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== РЕЗУЛЬТАТЫ ===== -->
+  <section class="results section" id="results">
+    <div class="container">
+      <h2 class="section-title">Результаты <span>нашей работы</span></h2>
+      <p class="section-sub">Предлагаем ознакомиться с примерами проведенных клининговых работ
+</p>
+      <div class="results-grid">
+        <div class="result-img"><img src="img/uborka1.webp" alt="Результат 1" width="300" height="220" /></div>
+        <div class="result-img"><img src="img/uborka2.webp" alt="Результат 2" width="300" height="220" /></div>
+        <div class="result-img"><img src="img/uborka3.webp" alt="Результат 3" width="300" height="220" /></div>
+        <div class="result-img"><img src="img/uborka4.webp" alt="Результат 4" width="300" height="220" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ФОРМА РАСЧЁТА ===== -->
+  <section class="calc-section section">
+    <div class="container">
+      <div class="calc-box">
+        <h3>Узнать стоимость уборки</h3>
+        <div class="calc-form">
+          <input type="text" placeholder="Введите имя" />
+          <input type="text" pattern="[+)( .-]*[0-9]+[0-9+)( .-]*" minlength="6" required="required" name="Введите номер телефона" placeholder="xxx-xxx-xxx" autocomplete="off">
+        <input type="submit" class="bg-primary" style="background-color: #1565c0; color: white;" value="Оставить запрос" >
+        </div>
+        <p class="calc-note">Нажимая на кнопку, Вы принимаете Положение и Согласие на обработку персональных данных.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ЦЕНЫ ===== -->
+  <section class="prices section" id="prices">
+    <div class="container">
+      <h2 class="section-title">Стоимость <span>клининговых услуг</span></h2>
+      <div class="prices-wrap">
+        <table class="price-table">
+          <tbody>
+            <tr class="" style="font-weight: 900;"><td>Наименование услуги
+</td><td>Стоимость услуг для новых клиентов</td></tr>
+
+            <tr><td>Регулярная уборка</td><td>80 р. за кв. м.</td></tr>
+            <tr><td>Уборка после ремонта</td><td>200 р. за кв. м.</td></tr>
+            <tr><td>Генеральная уборка</td><td>220 р. за кв. м.</td></tr>
+            <tr><td>Мойка окон</td><td>
+от 2000 р. </td></tr>
+            <tr><td>Химчистка дивана </td><td>
+от 2000 р.</td></tr>
+            <tr><td>Химчистка матраса</td><td>от 800 р.</td></tr>
+            <tr><td>Удаление сложных пятен/запахов</td><td>
+от 400 р.</td></tr>
+          </tbody>
+        </table>
+    </div>
+</div>
+
+</section>
+<section>
+    <div class="price-note">
+  <p>Подробнее о стоимости наших услуг</p>
+  <a href="#contact" class="btn btn-primary">Получить расчёт</a>
+</div>
+</section>
+
+  <!-- ===== КОМАНДА ===== -->
+  <section class="team section" id="team">
+    <div class="container">
+      <h2 class="section-title">Наша команда <span>профессионалов</span></h2>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-img"><img src="img/human.webp" alt="Анна" width="260" height="300" /></div>
+          <h4>Анна</h4>
+          <p>Бригадир команды клинеров. Осуществляет контроль качества выполняемой уборки</p>
+        </div>
+        <div class="team-card">
+          <div class="team-img"><img src="img/efir.webp" alt="Елена" width="260" height="300" /></div>
+          <h4>Ефим</h4>
+          <p>Технолог. Прорабатывает методики уборки, обучает бригадиров.
+
+          </p>
+        </div>
+        <div class="team-card">
+          <div class="team-img"><img src="img/olga.webp" alt="Ольга" width="260" height="300" /></div>
+          <h4>Ольга</h4>
+          <p>Бригадир команды клинеров. Осуществляет контроль качества выполняемой уборки./p>
+        </div>
+        <div class="team-card">
+          <div class="team-img"><img src="img/sveta.webp" alt="Светлана" width="260" height="300" /></div>
+          <h4>Елена</h4>
+          <p>Бригадир команды клинеров. Осуществляет контроль качества выполняемой уборки.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <h2 class="section-title">Часто задаваемые <span>вопросы</span></h2>
+      <h2 class="section-sub">Наши специалисты ответили на самые частые вопросы клиентов</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            <span>Какие средства вы используете для уборки?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Бытовая химия подбирается исходя из особенности каждого объекта. Учитываются такие факторы как: наличие деликатных поверхностей, особо сложные загрязнения, возможные ограничения по здоровью клиента, а так же безопасная химия для станций БИО очистки.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            <span>Сколько стоит уборка?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Уборка стоит от 2000 рублей в черте города. Далее стоимость уборки складывается из Ваших потребностей и объема работ. Наши менеджеры всегда готовы помочь Вам рассчитать стоимость уборки по телефону, WhatsApp, Телеграмм.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            <span>Сколько длится уборка?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Длительность уборки сильно зависит от степени загрязнений и убираемой площади. Средняя продолжительность:
+            <ol class="" style="padding-left: 30px;">
+                <li>Поддерживающая уборка - от 2 до 3,5 часов</li>
+                <li>Генеральная уборка - от 5 до 9 часов</li>
+                <li>Послеремонтная уборка - от 5 до 9 часов</li>
+            </ol></p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            <span>Сколько человек будет на уборке?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Количество клинеров всегда индивидуально, зависит от степени загрязнений и убираемой площади.
+            <ol class="" style="padding-left: 30px;">
+                <li>Поддерживающая уборка - 1 клинер</li>
+                <li>Генеральная и послестроительная уборка - от 2 клинеров.</li>
+            </ol></p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            <span>Нужно ли предоставлять пылесос, ведра, чистящие средства и прочее?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Предоставлять ничего не нужно. Наши клинеры всегда имеют при себе все оборудование, необходимое для выполнения уборки.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            <span>Нужно ли присутствовать во время уборки?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Во время уборки Ваше присутствие не требуется, Вы располагаете  свободным временем с самого начала уборки и до момента принятия Вами выполненной работы.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            <span>Возможна ли уборка/химчистка в ночное время?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Да! Мы работаем круглосуточно!  
+Важный момент - всегда учитывайте шум от оборудования, включать пылесос или экстрактор для химчистки можно только до 23.00, либо в звукоизолированном помещении, а так же в частных домах</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== НОВОСТИ ===== -->
+  <section class="news section" id="news">
+    <div class="container">
+      <h2 class="section-title">Новости <span>и акции</span></h2>
+      <div class="news-grid">
+        <div class="news-card">
+          <div class="news-img"><img src="img/aksia.webp" alt="Новость 1" width="380" height="220" /></div>
+          <div class="news-body">
+            <span class="news-date">12 мая 2026</span>
+            <h4>Мыть окон с внутренней стороны в ПОДАРОК! </h4>
+            <p>В зимнее время при заказе генеральной и уборки после ремонта, мыть окон с внутренней стороны для Вас будет абсолютно бесплатно.</p>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== КОНТАКТЫ ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-form-wrap">
+          <h2 class="section-title" style="text-align:left;">Обратная связь</h2>
+          <p class="contact-sub">Свяжитесь с нами</p>
+          <div class="contact-form">
+              <input type="tel" placeholder="Введите Телефон" />
+            <input type="text" placeholder="Введите имя" />
+            <textarea placeholder="Задайте Ваш вопрос" rows="4"></textarea>
+            <button class="btn btn-primary">Отправить</button>
+          </div>
+        </div>
+        <div class="contact-img">
+          <img src="img/foores.webp" alt="Контакты" width="560" height="440" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <img src="img/logo.webp" alt="Генералка" width="140" height="44" class="footer-logo" />
+        <p>Клининговая компания</p>
+        <p>Работаем по Екатеринбургу и Свердловской области</p>
+      </div>
+      <div class="footer-col">
+        <h5>Оглавление меню
+</h5>
+        <a href="#">Поддерживающая уборка
+</a>
+        <a href="#">Уборка после ремонта</a>
+        <a href="#">Генеральная уборка</a>
+        <a href="#">Наши услуги/a>
+        <a href="#">Химчистка мебели</a>
+      </div>
+      <div class="footer-col">
+        <h5>Оглавление меню
+</h5>
+        <a href="#">Часто задаваемые вопросы</a>
+        <a href="#">Наши цены</a>
+        <a href="#">Акции</a>
+        <a href="#">Наши работы</a>
+        <a href="#">Контакты</a>
+      </div>
+      <div class="footer-col">
+        <h5>Контакты</h5>
+        <a href="tel:+71234567890">+7 123 456-78-90</a>
+        <a href="mailto:info@generalka.ru">info@generalka.ru</a>
+        <div class="nav-socials">
+          <i class="fa-brands fa-vk" style="color: rgb(189, 200, 219);"></i>
+          <i class="fa-brands fa-whatsapp" style="color: rgb(2, 204, 16);"></i>
+          <i class="fa-brands fa-telegram" style="color: rgb(2, 73, 204);"></i>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 Генералка. Все права защищены.</p>
+        <p><a href="#">Политика конфиденциальности</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
